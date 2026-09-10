@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: zonkey}
 layers:
   default:
-  - Q
+  - {t: Q, h: TAB}
   - W
   - E
   - R
@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - Sft+Gui+S
+  - LANGUAGE 2
   - B
   - H
   - J
@@ -29,7 +29,7 @@ layers:
   - {t: C, h: '6'}
   - {t: V, h: '5'}
   - {t: B, h: '4'}
-  - '-'
+  - LANGUAGE 1
   - N
   - M
   - ','
@@ -38,11 +38,11 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: INT HENKAN, h: '3'}
-  - {t: SPACE, h: '2'}
-  - {t: INT MUHENKAN, h: '1'}
-  - BACKSPACE
-  - ENTER
+  - LEFT WIN
+  - LEFT ALT
+  - {t: SPACE, h: '1'}
+  - {t: BACKSPACE, h: '2'}
+  - {t: ENTER, h: '1'}
   - DEL
   '1':
   - CAPSLOCK
@@ -127,9 +127,9 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - {t: INT HENKAN, h: '3'}
-  - {t: SPACE, h: '2', type: held}
+  - {t: SPACE, h: '2'}
   - {t: INT MUHENKAN, h: '1'}
-  - BACKSPACE
+  - {t: BACKSPACE, type: held}
   - ENTER
   - DEL
   '3':
@@ -172,7 +172,7 @@ layers:
   - LEFT ALT
   - {t: INT HENKAN, h: '3', type: held}
   - {t: SPACE, h: '2'}
-  - {t: INT MUHENKAN, h: '1'}
+  - {t: INT MUHENKAN, h: '1', type: held}
   - BACKSPACE
   - ENTER
   - DEL
