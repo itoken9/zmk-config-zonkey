@@ -45,28 +45,28 @@ layers:
   - {t: ENTER, h: '1'}
   - DEL
   '1':
-  - CAPSLOCK
-  - '`'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: INT3, s: Sft+0x89}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - UP ARROW
+  - '8'
+  - '9'
   - TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACKSPACE
+  - ENTER
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LANGUAGE 2
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - ENTER
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT
+  - ''''
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -78,7 +78,7 @@ layers:
   - {t: ;, s: KP PLUS}
   - {t: '''', s: '"'}
   - {t: \, s: '~'}
-  - ENTER
+  - '"'
   - {t: ESC, h: LCTL}
   - LEFT WIN
   - LEFT ALT
@@ -87,7 +87,7 @@ layers:
   - {t: INT MUHENKAN, h: '1', type: held}
   - BACKSPACE
   - ENTER
-  - DEL
+  - '0'
   '2':
   - '1'
   - {t: '2', s: '@'}
@@ -133,18 +133,18 @@ layers:
   - ENTER
   - DEL
   '3':
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - Sft+5
+  - Sft+6
+  - Sft+7
+  - Sft+8
+  - Sft+9
+  - Sft+0
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
